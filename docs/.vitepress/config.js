@@ -2,7 +2,7 @@ export default {
   title: 'mmqUtils文档',
   description: '函数库、工具类',
   lastUpdated: true,
-  base: '/article',
+  base: '/mmqUtils-page',
   lang: 'zh-CN',
   head: [['link', {rel: 'icon', type: 'image/png', href: 'logo.svg'}]],
   themeConfig: {
