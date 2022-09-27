@@ -1,209 +1,64 @@
 export default {
-  title: "mmqUtils文档",
-  description: "函数库、工具类",
+  title: 'mmqUtils文档',
+  description: '函数库、工具类',
   lastUpdated: true,
-  base: "/article",
+  base: '/article',
   lang: 'zh-CN',
-  head: [["link", { rel: "icon", type: "image/png", href: "logo.svg" }]],
+  head: [['link', {rel: 'icon', type: 'image/png', href: 'logo.svg'}]],
   themeConfig: {
-    logo: "/logo.svg",
+    logo: '/logo.svg',
     nav: [
-      { text: "首页", link: "/" },
+      {text: '首页', link: '/'},
       {
-        text: "指引",
-        link: "/guide/quickstart",
+        text: '指引',
+        link: '/guide/quickstart',
       },
-      // {
-      //   text: "框架",
-      //   items: [
-      //     { text: "vue", link: "/vue/" },
-      //     { text: "react", link: "/react/" },
-      //   ],
-      // },
-      // {
-      //   text: "算法",
-      //   link: "/algorithm/sort",
-      // },
-      // {
-      //   text: "文章",
-      //   link: "/blog/actions",
-      // },
-      // {
-      //   text: "关于我",
-      //   items: [
-      //     {
-      //       text: "github",
-      //       link: "https://github.com/process1024",
-      //     },
-      //     {
-      //       text: "源码",
-      //       link: "https://github.com/process1024/article",
-      //     },
-      //     {
-      //       text: "掘金首页",
-      //       link: "https://juejin.cn/user/1011206427522078",
-      //     },
-      //   ],
-      // },
+      {
+        text: '关于我',
+        items: [
+          {
+            text: 'github',
+            link: 'https://github.com/tgbf2674',
+          }
+        ],
+      }
     ],
     sidebar: {
-      "/guide/": [
+      '/guide/': [
         {
-          isGroup: true,
-
-          text: "指引",
+          text: '指引',
+          collapsible: true,
           items: [
             {
-              text: "快速开始",
-              link: "/guide/quickstart",
+              text: '快速开始',
+              link: '/guide/quickstart',
             },
             {
-              text: "安装",
-              link: "/guide/install",
+              text: '安装方式',
+              link: '/guide/install',
             }
           ],
         },
-      ],
-      // "/vue/": [
-      //   {
-      //     isGroup: true,
-      //     text: "vue",
-      //     items: [
-      //       {
-      //         text: "nextTick",
-      //         link: "/vue/next-tick",
-      //       },
-      //       {
-      //         text: "keep-alive",
-      //         link: "/vue/keep-alive",
-      //       },
-      //     ],
-      //   },
-      // ],
-      // "/react/": [
-      //   {
-      //     isGroup: true,
-      //     text: "react",
-      //     items: [
-      //       {
-      //         text: "fiber",
-      //         link: "/react/fiber",
-      //       },
-      //       {
-      //         text: "hook",
-      //         link: "/react/hook",
-      //       },
-      //     ],
-      //   },
-      // ],
-      // "/algorithm/": [
-      //   {
-      //     isGroup: true,
-      //     text: "算法",
-      //     items: [
-      //       {
-      //         text: "数据结构",
-      //         link: "/algorithm/data-struct",
-      //       },
-      //       {
-      //         text: "排序算法",
-      //         link: "/algorithm/sort",
-      //       },
-      //     ],
-      //   },
-      // ],
-      // "/blog/": [
-      //   {
-      //     isGroup: true,
-      //     text: "博客",
-      //     items: [
-      //       {
-      //         text: "github action",
-      //         link: "/blog/actions",
-      //       },
-      //       {
-      //         text: "位运算",
-      //         link: "/blog/bit-operation",
-      //       },
-      //       {
-      //         text: "node实践浏览器缓存",
-      //         link: "/blog/nodejs-cache",
-      //       },
-      //       {
-      //         text: "nextTick原理解析",
-      //         link: "/blog/next-tick",
-      //       },
-      //       {
-      //         text: "vue2面试题原理解析",
-      //         link: "/blog/vue2-interview",
-      //       },
-      //       {
-      //         text: "vue3面试题原理解析",
-      //         link: "/blog/vue3-interview",
-      //       },
-      //       {
-      //         text: "函数式编程",
-      //         link: "/blog/functional",
-      //       },
-      //       {
-      //         text: "element-ui表单校验源码解析",
-      //         link: "/blog/element-validate",
-      //       },
-      //     ],
-      //   },
-      // ],
+        {
+          text: '函数',
+          collapsible: true,
+          items: [
+            {
+              text: '基本方法',
+              link: '/guide/base',
+            },
+            {
+              text: '数组方法',
+              link: '/guide/array',
+            },
+          ],
+        },
+      ]
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/tgbf2674" }],
-  },
-  // slide: {
-  //   "/frontend/": [
-  //     {
-  //       isGroup: true,
-  //       text: "大前端",
-  //       children: [
-  //         "/frontend/javascript.md",
-  //         "/frontend/browser.md",
-  //         "/frontend/nodejs.md",
-  //         "/frontend/http.md",
-  //       ],
-  //     },
-  //   ],
-  //   "/vue/": [
-  //     {
-  //       isGroup: true,
-  //       text: "vue",
-  //       children: ["/vue/next-tick.md", "/vue/keep-alive.md"],
-  //     },
-  //   ],
-  //   "/react/": [
-  //     {
-  //       isGroup: true,
-  //       text: "react",
-  //       children: ["/react/hook.md", "/react/fiber.md"],
-  //     },
-  //   ],
-  //   "/algorithm/": [
-  //     {
-  //       isGroup: true,
-  //       text: "算法",
-  //       children: ["/algorithm/data-struct.md", "/algorithm/sort.md"],
-  //     },
-  //   ],
-  //   "/blog/": [
-  //     {
-  //       isGroup: true,
-  //       text: "blog",
-  //       children: [
-  //         "/blog/actions.md",
-  //         "/blog/nodejs-cache.md",
-  //         "/blog/next-tick.md",
-  //         "/blog/element-validate.md",
-  //         "/blog/functional.md",
-  //         "/blog/bit-operation.md",
-  //         "/blog/vue2-interview.md",
-  //         "/blog/vue3-interview.md",
-  //       ],
-  //     },
-  //   ],
-  // },
-};
+    socialLinks: [{icon: 'github', link: 'https://github.com/tgbf2674'}],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2021-present tgbf2674'
+    },
+  }
+}
