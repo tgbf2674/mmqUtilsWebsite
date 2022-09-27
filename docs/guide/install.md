@@ -2,30 +2,25 @@
 
 ## 环境支持
 
-由于 Vue 3 不再支持 IE11，Element Plus 也不再支持 IE11 浏览器。
+支持js和ts,所以可以在vue2,vue3等环境的项目中使用它。
 
 ## 版本
 
-KittyUI 目前还在开发中
+mmqUtils 目前发布了第一个大版本1.0.0,接下来会持续更新。
 
 ## 使用包管理器
 
-建议您使用包管理器 (NPM, Yarn, pnpm) 安装 KittyUI, 然后您就可以使用打包工具，例如 Vite 和 webpack
+建议您使用包管理器 (NPM, Yarn, pnpm) 安装 mmqUtils, 然后您就可以使用打包工具，例如 Vite 和 webpack等
 
 ```
 # 选择一个你喜欢的包管理器
 
 # NPM
-$ npm install kitty-ui --save
+$ npm install mmq-utils --save
 
 # Yarn
-$ yarn add kitty-ui
+$ yarn add mmq-utils
 
 # pnpm
-$ pnpm install kitty-ui
+$ pnpm install mmq-utils
 ```
-
-## 浏览器直接引入
-
-暂不支持
-

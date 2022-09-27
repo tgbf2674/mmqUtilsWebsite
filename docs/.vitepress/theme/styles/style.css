@@ -37,9 +37,6 @@ p img {
     }
 }
 
-@media (min-width: 960px) {
-
-}
 /**
  * Colors
  * -------------------------------------------------------------------------- */
@@ -60,7 +57,6 @@ p img {
 
     --vp-nav-height-mobile: 56px;
     --vp-nav-height-desktop: 65px;
-    --vp-layout-max-width: 94vw;
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 }
 
