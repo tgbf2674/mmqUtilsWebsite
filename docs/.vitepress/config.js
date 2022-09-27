@@ -1,5 +1,5 @@
 export default {
-  title: "mmqUtils",
+  title: "mmqUtils文档",
   description: "函数库、工具类",
   lastUpdated: true,
   base: "/article",
@@ -10,7 +10,7 @@ export default {
     nav: [
       { text: "首页", link: "/" },
       {
-        text: "基础",
+        text: "指引",
         link: "/guide/quickstart",
       },
       // {
@@ -51,7 +51,7 @@ export default {
         {
           isGroup: true,
 
-          text: "intro",
+          text: "指引",
           items: [
             {
               text: "快速开始",
