@@ -60,5 +60,10 @@ export default {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2021-present tgbf2674'
     },
+    algolia: {
+      appId: '4WDZUQENJ9',
+      apiKey: '1e0583fba673174df6e9b7d3b612ac7a',
+      indexName: 'mmqUtilsDoc'
+    }
   }
 }
