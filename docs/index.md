@@ -4,27 +4,27 @@ layout: home
 title: 首页
 
 hero:
-  name: Process
-  text: 前端好好玩
-  tagline: 前端知识大全
+  name: mmqUtils
+  text: 函数库、工具类
+  tagline: js,ts可用
   image:
-    src: /pure-logo.png
+    src: /logo.png
     alt: logo
   actions:
     - theme: brand
-      text: 点击开始变强
+      text: 快速开始
       link: /guide/install
     - theme: alt
       text: 访问我的GitHub
-      link: https://github.com/process1024
+      link: https://github.com/tgbf2674
 features:
   - icon: ⚡️
-    title: 记录知识
-    details: 把学习整理的知识记录下来，对知识进一步理解，系统性学习
+    title: 函数库、工具类
+    details: 封装常用工具类，支持js,ts，已有百余方法通过单测
   - icon: 🖖
-    title: 技术文章
-    details: 将研究技术、阅读源码的过程记录下来，不管作为分享，还是自己以后回顾，都是一种很不错的方式
+    title: 轻量
+    details: 包大小仅50余K,支持按需引入
   - icon: 🛠️
-    title: 个人网站
-    details: 博客可以用来展示自己的学习成果，也能作为自己的名片
+    title: 持续更新
+    details: 平时遇到的工具类有必要都会封装
 ---

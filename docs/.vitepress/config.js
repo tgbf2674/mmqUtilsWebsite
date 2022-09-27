@@ -1,12 +1,12 @@
 export default {
-  title: "前端好好玩",
-  description: "前端进阶网站",
+  title: "mmqUtils",
+  description: "函数库、工具类",
   lastUpdated: true,
   base: "/article",
-  // lang: 'zh-CN',
-  head: [["link", { rel: "icon", type: "image/png", href: "pure-logo.svg" }]],
+  lang: 'zh-CN',
+  head: [["link", { rel: "icon", type: "image/png", href: "logo.svg" }]],
   themeConfig: {
-    logo: "/pure-logo.svg",
+    logo: "/logo.svg",
     nav: [
       { text: "首页", link: "/" },
       {
@@ -153,7 +153,7 @@ export default {
       //   },
       // ],
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/process1024" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/tgbf2674" }],
   },
   // slide: {
   //   "/frontend/": [
