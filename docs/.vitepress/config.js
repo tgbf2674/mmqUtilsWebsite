@@ -52,8 +52,16 @@ export default {
               link: '/guide/array',
             },
             {
+              text: '数字方法',
+              link: '/guide/number',
+            },
+            {
               text: '字符串方法',
               link: '/guide/string',
+            },
+            {
+              text: '函数方法',
+              link: '/guide/function',
             },
             {
               text: '对象方法',
