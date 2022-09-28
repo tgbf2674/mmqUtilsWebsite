@@ -4,7 +4,7 @@ export default {
   lastUpdated: true,
   base: '/mmqUtils-page',
   lang: 'zh-CN',
-  head: [['link', {rel: 'icon', type: 'image/png', href: 'logo.svg'}]],
+  head: [['link', {rel: 'icon', type: 'image/png', href: 'logo.png'}]],
   themeConfig: {
     logo: '/logo.svg',
     nav: [
@@ -51,6 +51,10 @@ export default {
               text: '数组方法',
               link: '/guide/array',
             },
+            {
+              text: '字符串方法',
+              link: '/guide/string',
+            },
           ],
         },
       ]
@@ -63,7 +67,10 @@ export default {
     algolia: {
       appId: '4WDZUQENJ9',
       apiKey: '1e0583fba673174df6e9b7d3b612ac7a',
-      indexName: 'mmqUtilsDoc'
+      indexName: 'mmqUtilsDoc',
+      searchParameters: {
+        faeFilters: ['tags:guide']
+      }
     }
   }
 }
