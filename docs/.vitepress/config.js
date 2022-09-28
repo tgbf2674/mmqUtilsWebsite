@@ -55,6 +55,18 @@ export default {
               text: '字符串方法',
               link: '/guide/string',
             },
+            {
+              text: '对象方法',
+              link: '/guide/object',
+            },
+            {
+              text: '日期方法',
+              link: '/guide/date',
+            },
+            {
+              text: '其他方法',
+              link: '/guide/other',
+            },
           ],
         },
       ]
