@@ -42,7 +42,7 @@ clone (obj, deep) 浅拷贝/深拷贝，和 assign 的区别是支持对象的�
                  expect(a.func === b.func).toEqual(false)
 ```
 
-## clone()
+## objectEach()
 
 objectEach (obj, iterate [, context]) 对象迭代器
 
