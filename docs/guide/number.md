@@ -106,3 +106,12 @@ divide (num1, num2) 除法运算
                 mmqUtils.divide(2.997, 0.9) // 3.33
                 mmqUtils.divide(182.967, 25.77) // 7.1
 ```
+
+## commafy()
+commafy(num, degits=0)数字千位符分割，保留degits位小数
+
+```
+                mmqUtils.commafy(12345) // 12,345
+                mmqUtils.commafy(1e11) // 100,000,000,000
+                mmqUtils.commafy(-0.0001, 4) // -0.0001
+```
